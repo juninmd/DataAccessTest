@@ -1,0 +1,8 @@
+[[allowlist]]
+description = "False positive: generic-api-key in DataAccessTest configuration files"
+rules = ["generic-api-key"]
+paths = [
+  "DataAccessTest/App.config",
+  "DataAccessTest/bin/Debug/DataAccessTest.vshost.exe.config",
+  "DataAccessTest/bin/Debug/DataAccessTest.exe.config"
+]
