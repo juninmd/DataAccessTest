@@ -1,0 +1,14 @@
+[[allowlist]]
+description = "False positive: generic-api-key in DataAccessTest/App.config"
+rules = ["generic-api-key"]
+paths = ["DataAccessTest/App.config"]
+
+[[allowlist]]
+description = "False positive: generic-api-key in DataAccessTest/bin/Debug/DataAccessTest.vshost.exe.config"
+rules = ["generic-api-key"]
+paths = ["DataAccessTest/bin/Debug/DataAccessTest.vshost.exe.config"]
+
+[[allowlist]]
+description = "False positive: generic-api-key in DataAccessTest/bin/Debug/DataAccessTest.exe.config"
+rules = ["generic-api-key"]
+paths = ["DataAccessTest/bin/Debug/DataAccessTest.exe.config"]
